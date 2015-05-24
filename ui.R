@@ -37,7 +37,8 @@ shinyUI(fluidPage(
       img(src="bigorb.png",height = 32, width = 32),
       "via Shiny and",
       span("Rstudio, ",style = "color:blue" ),
-      "copyright free, May 2015"
+      "copyright free, May 2015",
+	 helpText(  a("How to use this App", href="https://davidmzq.shinyapps.io/Assignment/HowToUseApp.html"))
 ),
   mainPanel(
   	h5(strong("Dataset and View")),
